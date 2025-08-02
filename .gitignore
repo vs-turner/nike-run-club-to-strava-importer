@@ -9,6 +9,7 @@ __pycache__/
 # Data folders
 strava_ready/
 *.tcx
+!sample_raw_run.tcx
 *.fit
 *.gpx
 *.csv

@@ -1,4 +1,4 @@
-# Nike Run Club → Strava TCX Fixer
+# Nike Run Club → Strava TCX Importer
 
 This tool batch-processes `.tcx` files exported from the Nike Run Club app and fixes common formatting issues so they can be uploaded cleanly to Strava.
 
@@ -57,7 +57,7 @@ File: run1.tcx
 2. Run from the command line:
 
    ```bash
-   python strava_batch_fix_tcx_with_summary.py
+   python nike_run_club_to_strava_converter_final.py
    ```
 
 3. When prompted, enter the folder containing your `.tcx` files (e.g., from a Nike data export).
@@ -75,5 +75,3 @@ To retrieve your actual runs:
 4. You need to confirm via email that you want the download, then you'll receive a download link via email (usually a ZIP with `.tcx` files)
 
 Note: The download link typically expires in 7 days, so save your data locally.
-
-
