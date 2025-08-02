@@ -1,0 +1,39 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# C extensions
+*.so
+
+# Data folders
+strava_ready/
+*.tcx
+*.fit
+*.gpx
+*.csv
+*.log
+*.json
+
+# Virtual environment
+env/
+venv/
+ENV/
+.venv/
+env.bak/
+
+# Mac OS / Windows junk
+.DS_Store
+Thumbs.db
+
+# VS Code / Jupyter
+.vscode/
+.ipynb_checkpoints/
+
+# Anaconda
+*.conda
+*.ipynb
+*.egg-info/
+
+export.pdf
+raw_export_originalfiles_nikeuserdata/
