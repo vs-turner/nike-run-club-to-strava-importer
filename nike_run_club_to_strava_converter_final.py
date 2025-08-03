@@ -116,7 +116,7 @@ def batch_fix_folder(input_folder, output_folder):
     summary_file = output_folder / "tcx_summary.txt"
     with open(summary_file, 'w') as f:
         f.write("\\n".join(summary_lines))
-    print(f"✅ Summary written to: {summary_file}")
+    print(f"Summary written to: {summary_file}")
 
 if __name__ == "__main__":
     input_path = input("Enter the path to your original .tcx files: ").strip()

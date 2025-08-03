@@ -35,7 +35,7 @@ The script:
 
 ## Output
 
-After running, you’ll get:
+After running (ha), you’ll get:
 
 - Cleaned `.tcx` files saved to a `strava_ready/` folder
 - A `tcx_summary.txt` file with basic info for each activity
