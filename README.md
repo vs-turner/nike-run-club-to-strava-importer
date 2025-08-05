@@ -20,6 +20,12 @@ These formatting and corruption issues can cause Strava to display:
 - Incorrect durations or pace
 - Broken route maps
 
+### Example 
+
+Corrupt `<DistanceMeters>` tag):
+
+![NTC Corrupted Distance Values](assets/ntc-strava-bug-example.png)
+
 ---
 
 ## What the Script Does
